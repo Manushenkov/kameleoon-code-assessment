@@ -1,0 +1,50 @@
+.tests-legend {
+  display: flex;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #999999;
+
+  div {
+    cursor: pointer;
+    user-select: none;
+  }
+}
+
+.tests-legend__name {
+  margin: 0 auto 0 15px
+}
+
+.tests-legend__type {
+  width: 125px;
+}
+
+.tests-legend__status {
+  width: 114px;
+}
+
+.tests-legend__site {
+  width: 286px;
+}
+
+.tests-legend__icon {
+  position: relative;
+  left: 8px;
+  top: -2px;
+  opacity: 0;
+  transition-duration: .2s;
+}
+
+.tests-legend__icon_ascending {
+  transform: scaleY(-1);
+  opacity: 1;
+  transition-duration: .2s;
+}
+
+.tests-legend__icon_descending {
+  opacity: 1;
+  transition-duration: .4s;
+}

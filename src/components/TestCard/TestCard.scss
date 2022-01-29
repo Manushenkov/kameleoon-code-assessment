@@ -1,0 +1,88 @@
+.test-card {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 0 12px 0 15px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  background-color: white;
+
+  transition: all ease .2s;
+
+  &:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    transition: all ease .2s;
+  }
+}
+
+.test-card_border-purple {
+  border-left: #8686FF solid 4px;
+}
+
+.test-card_border-red {
+  border-left: #E14165 solid 4px;
+}
+
+.test-card_border-light-purple {
+  border-left: #C2C2FF solid 4px;
+}
+
+.test-card__name {
+  margin-right: auto;
+  color: #474747;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.test-card__type {
+  width: 70px;
+  margin-right: 55px;
+  color: #5C5C5C;
+}
+
+.test-card__status {
+  width: 60px;
+  color: #5C5C5C;
+  font-weight: 500;
+  margin-right: 56px;
+}
+
+.test-card__status_online {
+  color: #1BDA9D;
+}
+
+.test-card__status_paused {
+  color: #FF8346;
+}
+
+.test-card__status_stopped {
+  color: #FE4848;
+}
+
+.test-card__site {
+  width: 170px;
+  margin-right: 7px;
+  color: #5C5C5C;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.test-card__button {
+  width: 95px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background: #2EE5AC;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 14.63px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.test-card__button_finalize {
+  background: #7D7D7D;
+}
