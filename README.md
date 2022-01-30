@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Tests viewer
 
 main packages being used - react, typescript, react-router-dom, jest, axios, node-sass, classnames<br/>
 
