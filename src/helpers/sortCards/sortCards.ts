@@ -1,6 +1,5 @@
-import { TestData } from '../../App'
-import { SORT_ORDER, SORT_TYPE } from '../../components/TestsLegend/TestsLegend'
-import { TestStatus } from '../../components/TestCard/TestCard'
+import { SORT_ORDER, SORT_TYPE, TestStatus } from '../../types/enums'
+import { TestData } from '../../components/TestCards/TestCards'
 
 const STATUS_TO_NUMBER = {
 	[TestStatus.ONLINE]: 1,

@@ -1,4 +1,4 @@
-import { TestData } from '../../App'
+import { TestData } from '../../components/TestCards/TestCards'
 
 const filterCards = (cardsData: TestData[], filterValue: string) => {
 	const filterValueLowerCase = filterValue.toLowerCase()

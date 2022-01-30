@@ -2,11 +2,12 @@ import './PageTitle.scss'
 import { memo } from 'react'
 
 interface PageTitleProps {
-	title: String
+	title: string
+	cls?: string
 }
 
-const PageTitle = memo(({ title }: PageTitleProps) => (
-	<h1 className='page-title'>{title}</h1>
+const PageTitle = memo(({ title, cls }: PageTitleProps) => (
+	<h1 className={'page-title ' + cls}>{title}</h1>
 ))
 
 export default PageTitle

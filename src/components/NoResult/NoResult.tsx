@@ -1,12 +1,12 @@
 import './NoResult.scss'
 import { Dispatch } from 'react'
-import { ACTION } from '../../App'
+import { ACTION } from '../../types/enums'
 
 interface NoResultProps {
 	dispatch: Dispatch<any>
 }
 
-const NoResult = ({dispatch}: NoResultProps) => {
+const NoResult = ({ dispatch }: NoResultProps) => {
 	const handleClick = () => {
 		dispatch({
 			type: ACTION.CHANGE_FILTER,

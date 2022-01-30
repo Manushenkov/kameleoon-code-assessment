@@ -1,7 +1,8 @@
 import './SearchInput.scss'
 import searchIcon from './searchIcon.svg'
 import { ChangeEvent, Dispatch, memo } from 'react'
-import { ACTION, ChangeFilter } from '../../App'
+import { ChangeFilter } from '../../pages/Dashboard/Dashboard'
+import { ACTION } from '../../types/enums'
 
 interface SearchInputProps {
 	filterValue?: string

@@ -1,22 +1,9 @@
 import './TestsLegend.scss'
 import { Dispatch } from 'react'
-import { ACTION, ChangeSort } from '../../App'
+import { ChangeSort } from '../../pages/Dashboard/Dashboard'
 import sortIcon from './sortIcon.svg'
 import classNames from 'classnames'
-
-export enum SORT_TYPE {
-	NAME = 'name',
-	TYPE = 'type',
-	SITE = 'site',
-	STATUS = 'status',
-	NONE = 'none',
-}
-
-export enum SORT_ORDER {
-	ASC = 'ASC',
-	DESC = 'DESC',
-	NONE = 'NONE',
-}
+import { ACTION, SORT_ORDER, SORT_TYPE } from '../../types/enums'
 
 const titles = [
 	{ type: SORT_TYPE.NAME, className: 'tests-legend__name' },

@@ -1,5 +1,5 @@
 import filterCards from './filterCards'
-import { TestData } from '../../App'
+import { TestData } from '../../components/TestCards/TestCards'
 
 describe('parse site url function', () => {
 	const mockCards = [

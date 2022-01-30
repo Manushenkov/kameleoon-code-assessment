@@ -1,7 +1,15 @@
 import TestCard from '../TestCard/TestCard'
-import { TestData } from '../../App'
-import { SORT_ORDER, SORT_TYPE } from '../TestsLegend/TestsLegend'
 import sortCards from '../../helpers/sortCards/sortCards'
+import { SORT_ORDER, SORT_TYPE, TestStatus, TestType } from '../../types/enums'
+
+export type TestData = {
+	site: string
+	id: number
+	name: string
+	type: TestType
+	status: TestStatus
+	siteId: number
+}
 
 interface TestCardsProps {
 	filteredCards: TestData[]
